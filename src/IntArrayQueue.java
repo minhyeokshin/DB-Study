@@ -34,7 +34,7 @@ public class IntArrayQueue {
 
 
     public int enque(int x) throws Exception{
-        if (this.num >= this.capacity) throws OverflowIntArrayQueueException{
+        if (this.num >= this.capacity) throw OverflowIntArrayQueueException{
             throw new OverflowIntArrayQueueException();
         }
         que[num++] = x;
